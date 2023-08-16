@@ -19,3 +19,10 @@ console.log(number);
 // 'user.firstName'에서 'lastName'을 key로 가지는 metadata value를 가져온다.
 const lastName = Reflect.getMetadata('lastName', user, 'firstName');
 console.log(lastName);
+
+// Reflect.defineMetadata('firstName', user.firstName, user);
+Reflect.defineMetadata('firstName', user.firstName, user, 'firstName');
+console.log(user);
+
+const firstName = Reflect.getMetadata('firstName', user, 'firstName');
+console.log(firstName);
