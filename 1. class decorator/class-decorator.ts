@@ -1,3 +1,9 @@
+function ClassDecorator(constructor: typeof A) {
+  console.log(constructor);
+  console.log(constructor.prototype);
+}
+
+@ClassDecorator
 // 1. class
 class A {
   // 2. property
