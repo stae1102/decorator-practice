@@ -1,0 +1,11 @@
+{
+  "name": "typescript-decorator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/stae1102/decorator-practice.git",
+  "author": "Seongtae <stae1102@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
